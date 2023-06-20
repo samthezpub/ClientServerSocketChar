@@ -1,0 +1,15 @@
+﻿<Window x:Class="ClientServerSocketChar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientServerSocketChar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextboxForMessage" TextWrapping="Wrap" Text="Введите ваше сообщение." Margin="10,349,146,10"/>
+        <Button x:Name="SendButton" Content="Отправить" HorizontalAlignment="Left" Margin="659,349,0,0" VerticalAlignment="Top" Height="57" Width="131"/>
+        <TextBlock x:Name="TextboxForMessagesHistory" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="334" Width="780" Background="#FFC0FFBE"/>
+
+    </Grid>
+</Window>
